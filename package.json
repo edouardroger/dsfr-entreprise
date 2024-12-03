@@ -1,0 +1,37 @@
+{
+  "name": "dsfr-entreprise",
+  "version": "1.0.0",
+  "description": "Composant Vue adoptant le système de design de l'Etat et proposant une autocomplétion de personnelles morales via l'API « Recherche d’entreprises »",
+  "main": "dist/dsfr-entreprise.umd.js",
+  "module": "dist/dsfr-entreprise.es.js",
+  "types": "dist/types/index.d.ts",
+  ".": {
+    "import": "dist/dsfr-entreprise.es.js",
+    "require": "dist/dsfr-entreprise.umd.js"
+  },
+  "style": "dist/style.css",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "author": "ER",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@types/node": "^22.9.3",
+    "@vitejs/plugin-vue": "^5.2.0",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vite-plugin-dts": "^4.3.0",
+    "vitest": "^2.1.5",
+    "vue-test-utils": "^0.5.0",
+    "vue-tsc": "^2.1.10"
+  }
+}
